@@ -1,7 +1,4 @@
-﻿Median House Prices 3rd Quarter 2020,,,,,,,,Change %,Change %,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUBURB,Jul - Sep 19,Oct - Dec 19,Jan - Mar 20,Apr- Jun 20,Jul - Sep 20,No of sales ,No of Sales ,Jul - Sep 19,Apr - Jun 20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,Jul - Sep 20,YTD,Jul - Sep 20,Jul - Sep 20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+﻿SUBURB,Jul - Sep 19,Oct - Dec 19,Jan - Mar 20,Apr- Jun 20,Jul - Sep 20,No of sales Jul - Sep 20,No of Sales YTD,Change % previous year,Change % previous quarter,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ABBOTSFORD,1160000,1027500,1230000,1080000,1260000,8,33,8.6,16.7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ABERFELDIE,1352500,1650000,1732500,1375000,1600000,6,25,18.3,16.4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 AINTREE,575000,620400,675000,685000,740000,8,52,28.7,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

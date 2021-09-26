@@ -1,0 +1,32 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 600,
+    "title": "Change in Median House Prices in VIC from 2020 to 2021",
+    "layer": [
+        {
+            "data": {
+                "url": "https://raw.githubusercontent.com/ebud0001/fit3179-homework3/main/vic_suburbs.json",
+                "format": {"type": "topojson", "feature": "vic_suburbs"}
+            },
+            "transform": [{
+                "lookup": "vic_loca_2",
+                "from": {
+                    "data": {
+                        "url": "https://raw.githubusercontent.com/ebud0001/fit3179-homework3/main/VIC_House_Medians3rdQtr2020.csv"
+                    },
+                    "key": "SUBURB",
+                    "fields": ["Change % previous year"]
+                }
+            }],
+            "mark":  {"type": "geoshape"},
+            "encoding": {
+                "color": {
+                    "field": "Change % previous year",
+                    "type": "quantitative",
+                    "scale": {"scheme": "reds"}
+                }
+            } 
+        }
+    ] 
+}
